@@ -1,4 +1,4 @@
-from PKPass import PKPass
+from PyPKPass.PKPass import PKPass
 
 class PKEventTicket(PKPass):
     def __init__(self, passTypeIdentifier, serialNumber):

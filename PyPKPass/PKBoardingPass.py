@@ -1,4 +1,4 @@
-from PKPass import PKPass
+from PyPKPass.PKPass import PKPass
 
 transitTypes = [
     "PKTransitTypeAir",

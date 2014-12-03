@@ -3,12 +3,12 @@ import json
 import time
 import shutil
 import zipfile
-import functions
+import PyPKPass.functions
 import subprocess
 
-from PKPassLocation import PKPassLocation
-from PKPassBarcode import PKPassBarcode
-from PKPassField import PKPassField
+from PyPKPass.PKPassLocation import PKPassLocation
+from PyPKPass.PKPassBarcode import PKPassBarcode
+from PyPKPass.PKPassField import PKPassField
 
 
 class PKPass(object):

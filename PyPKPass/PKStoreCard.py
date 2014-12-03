@@ -1,5 +1,5 @@
-from PKPass import PKPass
-from PKPassField import PKPassField
+from PyPKPass.PKPass import PKPass
+from PyPKPass.PKPassField import PKPassField
 
 class PKStoreCard(PKPass):
     def __init__(self, passTypeIdentifier, serialNumber):

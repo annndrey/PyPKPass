@@ -3,13 +3,13 @@ import os
 from setuptools import setup, find_packages
 
 here = os.path.abspath(os.path.dirname(__file__))
-README = open(os.path.join(here, 'README.txt')).read()
+README = open(os.path.join(here, 'README.md')).read()
 CHANGES = open(os.path.join(here, 'CHANGES.txt')).read()
 
 requires = [
     ]
 
-setup(name='PyPKPass',
+setup(name='pypkpass',
       version='0.0',
       description='A series of Python objects for the construction, management, and serialization of iOS PassKit passes',
       long_description=README + '\n\n' + CHANGES,
@@ -28,8 +28,4 @@ setup(name='PyPKPass',
       zip_safe=False,
       test_suite='PyPKPass',
       install_requires=requires,
-      entry_points="""\
-      [paste.app_factory]
-      main = PyPKPass:main
-      """,
       )
